@@ -1,7 +1,7 @@
 """Video analysis"""
 import cv2 as cv
 
-capture = cv.VideoCapture('''/mnt/d/Videos/MPG.mkv''')
+capture = cv.VideoCapture('/mnt/d/Videos/CCC.mp4')
 
 while True:
     isTrue, frame = capture.read()
