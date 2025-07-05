@@ -11,7 +11,7 @@ grey = cv.cvtColor(pic, cv.COLOR_BGR2GRAY)
 # cv.imshow('Gray_person',grey)
 
 haar_cascade = cv.CascadeClassifier('data/haarcascade_frontalface_default.xml')
-faces_rect = haar_cascade.detectMultiScale(grey,scaleFactor=1.1, minNeighbors=1)
+faces_rect = haar_cascade.detectMultiScale(pic,scaleFactor=1.1, minNeighbors=1)
 
 print(f'Number of faces found = {len(faces_rect)}')
 
