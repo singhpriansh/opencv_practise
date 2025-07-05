@@ -1,3 +1,6 @@
+'''
+  Threshholding channels of images
+'''
 import cv2 as cv
 
 bq = cv.imread('Sample/FB_IMG_1473499987377.jpg')
